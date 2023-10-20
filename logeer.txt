@@ -4,3 +4,10 @@ this is done by Developer_A branch
 this is done by master
 this is Done BY Developer_A_again:22:49
 this is Done BY Developer_A_again:23:02
+
+steps:for merge:
+checkout first in which branch that you want merge updated code
+git checkout main
+git merge Developer_A
+git push origin main
+
